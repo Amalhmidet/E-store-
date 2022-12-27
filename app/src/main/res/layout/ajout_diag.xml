@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:text="Ajouter Article"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/spn"
+            android:background="@drawable/spinner"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+
+            android:layout_height="60dp"/>
+        <EditText
+            android:padding="20dp"
+            android:id="@+id/labelle"
+            android:background="@drawable/edittext"
+            android:layout_width="match_parent"
+            android:hint="Libelle"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:padding="20dp"
+            android:id="@+id/dec"
+            android:layout_margin="20dp"
+            android:background="@drawable/edittext"
+            android:layout_width="match_parent"
+            android:hint="Description"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            android:id="@+id/prix"
+            android:background="@drawable/edittext"
+            android:layout_width="match_parent"
+            android:hint="Prix"
+            android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/imageselctor"
+                android:layout_width="match_parent"
+                android:text="Select image"
+                android:layout_margin="20dp"
+                android:background="@drawable/image_btn"
+                android:layout_height="70dp"/>
+
+    </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center">
+      <Button
+          android:id="@+id/add"
+          android:layout_width="120dp"
+          android:textSize="20dp"
+          android:text="Ajout"
+          android:background="@drawable/button"
+          android:layout_height="wrap_content"/>
+  </LinearLayout>
+
+</LinearLayout>
